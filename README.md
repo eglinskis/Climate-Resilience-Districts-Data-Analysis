@@ -99,3 +99,13 @@ Conclusion
 ----------
 
 This analysis has examined potential policy design tools to create scalable adaptation financing strategies and minimize distributional impact to historically disinvested households. While the analysis in San Mateo shows that financially insecure and socially vulnerable households are less likely to disproportionately bear the burden of assessments levied for resilience infrastructure financing, it is critical to underscore that the absolute value of the assessment on a cost-constrained household may still be burdensome. In other words, even if financially insecure households are on average paying less than households with large discretionary incomes, that value may still be more than these households can bear. Thus, abatements and exemptions are a powerful policy design tool that should complement any proposed Climate Resilience District. Additionally, unexplored opportunities could include utilizing new local financing strategies to allocate for in parallel anti-displacement work, such as affordable housing development, land acquisition and rehabilitation, and other community programs.
+
+References
+----------
+
+
+Assessment Districts. (n.d.). SAFCA - Sacramento Area Flood Control Agency. Retrieved April 28, 2024, from <https://www.safca.org/assessments/assessment-districts/>
+Bick, I. A., Santiago Tate, A. F., Serafin, K. A., Miltenberger, A., Anyansi, I., Evans, M., et al. (2021). Rising seas, rising inequity? Communities at risk in the San Francisco Bay Area and implications for adaptation policy. Earth's Future, 9, e2020EF001963. <https://doi-org.libproxy.berkeley.edu/10.1029/2020EF001963>
+Metropolitan Transportation Commission / Association of Bay Area Governments and the San Francisco Bay Conservation and Development Commission. Sea Level Rise Adaptation Funding and Investment Framework Technical Methodology Report (2023, July). Retrieved April 2024, from <https://mtc.ca.gov/sites/default/files/documents/2023-07/SLR_Framework_Technical_Methodology_Report_0.pdf>
+San Francisco Bay Conservation and Development Commission. (2023). Community Vulnerability Data User Guide -- 2023 Update. Retrieved April 2024, from <https://www.adaptingtorisingtides.org/wp-content/uploads/2024/01/CommunityVulnerability_Data_UserGuide_BCDC_2023_Final.pdf>
+
