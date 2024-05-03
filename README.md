@@ -61,14 +61,14 @@ Model Input Variables from 2023 BCDC Community Vulnerability Dataset![](https://
 Results
 -------
 
-###**Which Land Use Types are Assessed the Most?**\
+### **Which Land Use Types are Assessed the Most?**\
 ![](https://lh7-us.googleusercontent.com/WZlzibHlBc2wOwQ1VLuz5ifU7VuZIiQwnTzMBqAJAYYc2VbyrojO_vGC2pi7q9S6JrNPWwuEAMR4CqKNvaumoUU6unefzuEUqnfaHm47LPD1gjOCyLIBnHMqizH1MnXaZLiUqPq1NOUnvASiryUeLHM)
 
 Left shows the percentage of total annual assessment contributed by the census block group, with the majority land use type reflected on the right. Below shows the percentage breakdown of the annual assessment share based on parcel land use type.
 
 There are select census blocks with non-Residential ownership that bear a high percentage of costs according to the benefits received -- notably for SFO, which is technically owned by the City of San Francisco (public ownership) and would contribute $2 M annually, or 5% of the assessment. Importantly however, residential parcels would pay 48% of the annual special assessment for San Mateo flood protection ($23 Million). Thus the burden of which types of households contribute these costs becomes more apparent.
 
-###**What Household Typologies are Assessed the Most?**
+### **What Household Typologies are Assessed the Most?**
 
 The OLS regression examines how socio-demographic characteristics correlate with the total cost share for residential assessments. The model produced an R-squared of 0.7 and train/test RMSEs of 0.82 and 0.97 respectively. Both the training and test RMSE values are lower than the standard deviation of the outcome variable (1.00), suggesting that this model is performing fairly well but may slightly overfit the data due to the higher test error.
 
