@@ -56,15 +56,17 @@ Next, the annual project costs are divided by the total benefit (summed AAL valu
 
 In order to assess key questions about distributional impacts of financing strategies on households, two statistical modeling techniques were explored: Ordinary Least Squares (OLS) regression and K-means Unsupervised Clustering. Explanatory variables were extracted from the BCDC Community Vulnerability dataset and included socio-demographic features like race, income, age, and housing ownership status (see below for full list of eight model variables). The outcome variable is defined as the percentage of financial contribution by block group for the full annual assessment levied on residential parcels (other land use types were not included here, since I am interested in fiscal impacts to resident households). In both models all variables were standardized, and 98 total observations included (number of block groups in the CRD). For the K-means approach, the elbow method was applied to determine an optimal value of 3 clusters. Classification was performed in order to determine distinct socio-demographic clusters across geographical space within the example CRD. 
 
-Model Input Variables from 2023 BCDC Community Vulnerability Dataset![](https://lh7-us.googleusercontent.com/9ZvvSjWWY5-CMeD0Fh8akHUp9rpd9TZBTlA3yIcYb_NgrEfedKJE71ySep0aKzaocYlRKFEg3pbaCheh6P0hlEO3g8BAVBP1M5F53ogglzn1cYEi2MQbiXI0ccDTvtKnLlyzAdC9Yq2LzXSL79WLUY4)
+![](https://lh7-us.googleusercontent.com/9ZvvSjWWY5-CMeD0Fh8akHUp9rpd9TZBTlA3yIcYb_NgrEfedKJE71ySep0aKzaocYlRKFEg3pbaCheh6P0hlEO3g8BAVBP1M5F53ogglzn1cYEi2MQbiXI0ccDTvtKnLlyzAdC9Yq2LzXSL79WLUY4)
+
+*Model Input Variables from 2023 BCDC Community Vulnerability Dataset*
 
 Results
 -------
 
-### **Which Land Use Types are Assessed the Most?**\
+### **Which Land Use Types are Assessed the Most?**
 ![](https://lh7-us.googleusercontent.com/WZlzibHlBc2wOwQ1VLuz5ifU7VuZIiQwnTzMBqAJAYYc2VbyrojO_vGC2pi7q9S6JrNPWwuEAMR4CqKNvaumoUU6unefzuEUqnfaHm47LPD1gjOCyLIBnHMqizH1MnXaZLiUqPq1NOUnvASiryUeLHM)
 
-Left shows the percentage of total annual assessment contributed by the census block group, with the majority land use type reflected on the right. Below shows the percentage breakdown of the annual assessment share based on parcel land use type.
+*Left shows the percentage of total annual assessment contributed by the census block group, with the majority land use type reflected on the right. Below shows the percentage breakdown of the annual assessment share based on parcel land use type.*
 
 There are select census blocks with non-Residential ownership that bear a high percentage of costs according to the benefits received -- notably for SFO, which is technically owned by the City of San Francisco (public ownership) and would contribute $2 M annually, or 5% of the assessment. Importantly however, residential parcels would pay 48% of the annual special assessment for San Mateo flood protection ($23 Million). Thus the burden of which types of households contribute these costs becomes more apparent.
 
@@ -76,13 +78,13 @@ Overall, the resulting model had relevant results for the proposed CRD in San Ma
 
 ![](https://lh7-us.googleusercontent.com/rjWNKVHXHe6sl2e_oc_TZ2Hi_A0MCBv2PYRSSHHd09Lr6jniW7YU56f9lKHCG_JHYhWZNDZrl13PnehZw1EkPnmeSUheBiAiikp880JGkmVfQmfdSKFJiMlvNruEeEhBa-tdHRjuRA4HXx0sWfRmLLg)
 
-Coefficient values of standardized features from the OLS regression model assessing factors correlated with total cost share for annual residential assessments in the San Mateo CRD.
+*Coefficient values of standardized features from the OLS regression model assessing factors correlated with total cost share for annual residential assessments in the San Mateo CRD.*
 
 The k-means classification method produced distinct geographically-distributed classes of neighborhood characteristics in relation to assessment burden. Below I  map the three distinct classes produced, along with key identifying features for each class. For example, jurisdictions such as East Palo Alto encompass class 1, where there are high proportions of Black and Latinx communities, high proportions of financial instability, and medium levels of homeownership. In contrast, cities like Foster City have higher dominance from Class 3, which exhibits higher Asian dominant households, the lowest financial instability and housing cost burdens, and the highest percentages of homeowners. San Mateo city is more mixed in terms of classes. 
 
 ![](https://lh7-us.googleusercontent.com/CRlUFQO5X7Mn8YWODKieOURk4__cLpPqShvDJeyD9JbRlfNObsfSJl4Iw6-xA7ywD-oXxpT0o45y16mRPXtlMwKJcrK-4HcGKh4hH1_rvooeddbuniFlqqKBmLe4ZH6iLoZCI1SXNrIjEp7XeEZGS_s)
 
-K-means classification of socioeconomic clusters in the San Mateo shoreline CRD with associated attributes and characteristics.
+*K-means classification of socioeconomic clusters in the San Mateo shoreline CRD with associated attributes and characteristics.*
 
 From an equity and policy design perspective it is critical to zero in a household's ability to pay  additional assessments on their property on an annual basis. Financial stability was calculated at the census block group level by classifying households that have zero or negative discretionary income after accounting for the high Bay Area cost of living, signifying a minimal ability to pay for additional expenses. As referenced in [Bick et al, 2021](https://agupubs-onlinelibrary-wiley-com.libproxy.berkeley.edu/doi/full/10.1029/2020EF001963#), consumer prices are multiplied by a regional price parity of 1.3 to account for increased cost of goods and services in San Mateo relative to the U.S. at-large.  Generally, income brackets below $75,000-100,000 show negative discretionary incomes.
 
@@ -90,7 +92,7 @@ Zooming into financial instability by demographic majority group, in the next pl
 
 ![](https://lh7-us.googleusercontent.com/8_zODi4y59IBXJ7U4NfHEvtkqDOK972ZGGOnCGNHmJc1olsUGTzI4GezY8vaCl2PyCacRfxSpeFg0LTdBH7bxWdcFurnDNlyfK5VjlXOElGNn3_fKrbWjtlM4JaTThpZKSVzy6t6e7iHlFwAH5640aA)
 
-Linear regression showing that the higher percentage of households classified as financially unstable, the lower the contribution to the annual assessment. 
+*Linear regression showing that the higher percentage of households classified as financially unstable, the lower the contribution to the annual assessment.* 
 
 Conclusion
 ----------
