@@ -56,9 +56,10 @@ Next, the annual project costs are divided by the total benefit (summed AAL valu
 
 In order to assess key questions about distributional impacts of financing strategies on households, two statistical modeling techniques were explored: Ordinary Least Squares (OLS) regression and K-means Unsupervised Clustering. Explanatory variables were extracted from the BCDC Community Vulnerability dataset and included socio-demographic features like race, income, age, and housing ownership status (see below for full list of eight model variables). The outcome variable is defined as the percentage of financial contribution by block group for the full annual assessment levied on residential parcels (other land use types were not included here, since I am interested in fiscal impacts to resident households). In both models all variables were standardized, and 98 total observations included (number of block groups in the CRD). For the K-means approach, the elbow method was applied to determine an optimal value of 3 clusters. Classification was performed in order to determine distinct socio-demographic clusters across geographical space within the example CRD. 
 
+*Model Input Variables from 2023 BCDC Community Vulnerability Dataset.*
+
 ![](https://lh7-us.googleusercontent.com/9ZvvSjWWY5-CMeD0Fh8akHUp9rpd9TZBTlA3yIcYb_NgrEfedKJE71ySep0aKzaocYlRKFEg3pbaCheh6P0hlEO3g8BAVBP1M5F53ogglzn1cYEi2MQbiXI0ccDTvtKnLlyzAdC9Yq2LzXSL79WLUY4)
 
-*Model Input Variables from 2023 BCDC Community Vulnerability Dataset*
 
 Results
 -------
