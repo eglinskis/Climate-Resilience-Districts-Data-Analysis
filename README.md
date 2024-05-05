@@ -18,6 +18,12 @@ In response to these issues, this research analysis hopes to answer the followin
 
 The county of San Mateo has approximately 738,000 residents and is made up of 27 jurisdictions and unincorporated areas. [According to the ABAG/BCDC](https://mtc.ca.gov/sites/default/files/documents/2023-07/SLR_Framework_Final_Report.pdf), San Mateo county makes up the largest share (almost 25%, or 21.7 B USD) of Bay Area-wide flood protection costs, as well as over 50% of the total assessed value at risk of inundation (4.9 ft SLR). An estimated 55,000 San Mateo households are expected to experience major flood exposure by 2050 as the county has more people and property value from SLR than any other county in the state. As such, it is often referred to as the "ground zero" for SLR vulnerability.
 
+
+![](https://lh7-us.googleusercontent.com/WDMTmMV3cZxYuKuSutzWH6xFg6kaxG-73t0yyGFE020pXOC5iu9Fx2xm4hh9Ch-fmpLMvV0ZdBFO1SKJLrdr_7N_GgsnM7pq-xGQtX4SGKfQoACfC2bdv9WYzDF8PZbX7FUJKPHiU8OdDriNEBvOQIw)
+
+*See slippymap.html for live version of the project inventory map.*
+
+
 Key Datasets
 ------------
 
